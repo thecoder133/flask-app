@@ -17,3 +17,7 @@ def num(number):
 @app.route('/liam')
 def liam():
     return render_template('liam.html')
+
+@app.route('/bored')
+def bored():
+    return "I AM BORED"
