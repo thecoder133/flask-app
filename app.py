@@ -6,7 +6,14 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
+@app.route('/num')
+def numnum():
+    return "Add /y with y being any number you want to get a number between 1 and that number!!!"
+
 @app.route('/num/<int:number>')
 def num(number):
     num = random.randint(1, number)
     return f"Number between 1 and {number} is: {num}!"
+@app.route('/liam')
+def liam():
+    return render_template('liam.html')
