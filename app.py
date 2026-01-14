@@ -29,3 +29,7 @@ def name(name):
 @app.route('/yes/<content>')
 def luke(content):
     return render_template('yes.html', content=content)
+
+@app.route('/why')
+def why():
+    return "."
