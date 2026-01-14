@@ -26,6 +26,6 @@ def bored():
 def name(name):
     return render_template('name.html', name=name)
 
-@app.route('/yes/<content>'):
+@app.route('/yes/<content>')
 def luke(content):
     return render_template('yes.html', content=content)
