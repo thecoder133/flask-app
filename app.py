@@ -24,4 +24,4 @@ def bored():
 
 @app.route("/name/<name>")
 def name(name):
-    return f"Hello, {name.title()}!"
+    return render_template('name.html', name=name)
