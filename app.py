@@ -21,3 +21,7 @@ def liam():
 @app.route('/bored')
 def bored():
     return "I AM BORED"
+
+@app.route("/name/<str:name>")
+def name(name):
+    return f"Hello, {name.title()}!"
