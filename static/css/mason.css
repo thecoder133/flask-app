@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: lightskyblue;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}

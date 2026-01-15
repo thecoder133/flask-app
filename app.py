@@ -33,3 +33,7 @@ def luke(content):
 @app.route('/why')
 def why():
     return "."
+
+@app.route('/mason')
+def mason():
+    return render_template('mason.html')
