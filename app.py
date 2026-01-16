@@ -37,3 +37,7 @@ def why():
 @app.route('/mason')
 def mason():
     return render_template('mason.html')
+
+@app.route('/corrine')
+def corrine():
+    return render_template('mason.html')
