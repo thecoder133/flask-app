@@ -40,4 +40,4 @@ def mason():
 
 @app.route('/corrine')
 def corrine():
-    return render_template('mason.html')
+    return render_template('corrine.html')
