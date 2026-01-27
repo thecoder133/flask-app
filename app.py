@@ -38,6 +38,6 @@ def why():
 def mason():
     return render_template('mason.html')
 
-@app.route('/corrine')
+@app.route('/kuhrrine')
 def corrine():
     return render_template('corrine.html')
