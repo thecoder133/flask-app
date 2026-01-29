@@ -44,7 +44,7 @@ def corrine():
 
 @app.route('/luke')
 def luke():
-
+    return "hello"
 @app.route('/boom')
 def boom():
     return render_template('boom.html')
