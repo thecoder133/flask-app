@@ -41,3 +41,10 @@ def mason():
 @app.route('/kuhrrine')
 def corrine():
     return render_template('corrine.html')
+
+@app.route('/luke')
+def luke():
+
+@app.route('/boom')
+def boom():
+    return render_template('boom.html')
